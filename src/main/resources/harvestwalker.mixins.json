@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "committee.nova.harvestwalker.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "harvestwalker.refmap.json",
+  "mixins": [
+    "MixinLivingEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
